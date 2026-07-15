@@ -104,7 +104,7 @@ export default function DashboardPage() {
           <h1 className="text-[22px] font-bold tracking-tight text-foreground">{t("dashboard.title")}</h1>
           <p className="text-[13px] text-muted-foreground mt-0.5">
             {t("dashboard.description")}
-            <span className="ml-2 text-[11px] text-muted-foreground/60">· 数据更新于 2 分钟前</span>
+            <span className="ml-2 text-[11px] text-muted-foreground/60">{t("dashboard.updatedAt")}</span>
           </p>
         </div>
         <div className="flex items-center gap-2">
@@ -143,7 +143,7 @@ export default function DashboardPage() {
                 {m.change > 0 && "+"}{m.change}{m.key === "ctr" || m.key === "cvr" ? "pp" : m.key === "reviewRating" ? "" : "%"}
               </span>
               <span className="text-[10px] text-muted-foreground">{t("dashboard.vsLastMonth")}</span>
-              <span className="text-[10px] text-muted-foreground/60 ml-auto">昨 {m.yesterday}</span>
+              <span className="text-[10px] text-muted-foreground/60 ml-auto">{t("dashboard.yesterday")} {m.yesterday}</span>
             </div>
           </div>
         ))}

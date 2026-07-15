@@ -1,9 +1,9 @@
 export default {
   common: {
     appName: "Ecom Assistant AI",
-    appSubtitle: "跨境电商 AI 工作平台",
+    appSubtitle: "AI 跨境电商工作平台",
     marketplace: "Amazon.com",
-    userRole: "Amazon 运营",
+    userRole: "Amazon 高级运营经理",
     search: "搜索任何内容…",
     searchShortcut: "⌘K",
     exportReport: "导出报告",
@@ -72,6 +72,8 @@ export default {
     statusPending: "待处理",
     statusCancelled: "已取消",
     viewDetails: "查看详情",
+    yesterday: "昨日",
+    updatedAt: "· 刚刚更新"
   },
   aiInsights: {
     title: "今日 AI 建议",

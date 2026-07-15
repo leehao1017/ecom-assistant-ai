@@ -1,9 +1,9 @@
 export default {
   "common": {
     "appName": "Ecom Assistant AI",
-    "appSubtitle": "AI Workspace for Ecommerce",
+    "appSubtitle": "AI Workspace for Amazon Sellers",
     "marketplace": "Amazon.com",
-    "userRole": "Amazon Operations",
+    "userRole": "Senior Operations Manager",
     "search": "Search anything...",
     "searchShortcut": "⌘K",
     "exportReport": "Export Report",
@@ -25,7 +25,7 @@ export default {
     "keywords": "Keyword Research",
     "reports": "AI Reports",
     "settings": "Settings",
-    "help": "Help & Support"
+    "help": "Help &amp; Support"
   },
   "userMenu": {
     "accountSettings": "Account Settings",
@@ -70,7 +70,9 @@ export default {
     "statusDelivered": "Delivered",
     "statusPending": "Pending",
     "statusCancelled": "Cancelled",
-    "viewDetails": "View details"
+    "viewDetails": "View details",
+    "yesterday": "Yesterday",
+    "updatedAt": "· Updated just now"
   },
   "aiInsights": {
     "title": "Today's AI Suggestions",
